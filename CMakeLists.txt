@@ -21,3 +21,6 @@ target_link_libraries(meshToVolume OpenVDB::openvdb)
 
 add_executable(vdbToMitsuba vdbToMitsuba.cpp)
 target_link_libraries(vdbToMitsuba OpenVDB::openvdb)
+
+add_executable(ndf ndf.cpp)
+target_link_libraries(ndf OpenVDB::openvdb)
